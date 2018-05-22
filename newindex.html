@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Latitude Weather Analysis</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">">
   <link rel="stylesheet" href="style.css">
@@ -76,7 +76,7 @@
                         <hr>
                         <figure>
                             <a target="_blank" href="Ploting_graph_of_Cities.png">
-                                <img id="viz-main" src="Ploting_graph_of_Cities.png" alt="Latitude of cities">
+                                <img id="temp-sample" src="../Images/Ploting_graph_of_Cities.png" alt="Latitude vs. Temperature">
                             </a>
                         </figure>
 
@@ -88,13 +88,13 @@
                             <p> Assigning 1,500 random Latitude and Longitudes, I utilized the Python CitiPy library to find
                                 the city closest to the Lat/Lon (dropping all duplicates) to get a listing of over 600 cities.
                                 I utilized OpenWeatherMapAPI to get the weather for the cities (dropping cities with no data)
-                                to create a dataframe of weather information for over 500 cities.
+                                to create a dataframe of weather information for over 500 cities. 
                             </p>
 
                             <p>
-                                The dataframe is saved to CSV and the data is analyzed across the three climate zones (Tropical Zone, Temperate Zone, and
-                                Polar Zone). To showcase the relationship between latitude and temperature/humidity/cloudiness/wind
-                                speed I utilize MatplotLib scatter plots to view:
+                                The dataframe is saved to CSV and the data is analyzed across the three climate zones (Tropical 
+                                Zone, Temperate Zone, and Polar Zone).  To showcase the relationship between latitude and 
+                                temperature/humidity/cloudiness/wind speed I utilize MatplotLib scatter plots to view:
                             </p>
 
                             <ul>
@@ -104,25 +104,25 @@
                                 <li>Wind Speed (mph) vs. Latitude</li>
 
                             </ul>
-
+                         
                         </section>
 
                     </section>
                 </div>
             </div>
 
-
+           
             <div class="col-md-4">
                 <div class="box box-right">
                     <h2>Visualizations</h2>
                     <hr>
 
-
+                    
                     <div class="row">
                         <div class="col-xs-6 col-sm-3 col-md-6">
                             <figure>
                                 <a href="temp.html">
-                                    <img id="landing-viz" src="Temp_Latitude.png" alt="Latitude vs. Temperature">
+                                    <img id="landing-viz" src="../Images/Temp_Latitude.png" alt="Latitude vs. Temperature"  >
                                 </a>
                             </figure>
                         </div>
@@ -130,7 +130,7 @@
                         <div class="col-xs-6 col-sm-3 col-md-6">
                             <figure>
                                 <a href="humid.html">
-                                    <img id="landing-viz" src="Humidity_Latitude.png" alt="Latitude vs. Humidity">
+                                    <img id="landing-viz" src="../Images/Humidity_Latitude.png" alt="Latitude vs. Humidity" >
                                 </a>
                             </figure>
                         </div>
@@ -138,7 +138,7 @@
                         <div class="col-xs-6 col-sm-3 col-md-6">
                             <figure>
                                 <a href="cloud.html">
-                                    <img id="landing-viz" src="Cloudiness_Latitude.png" alt="Latitude vs. Cloudiness">
+                                    <img id="landing-viz" src="../Images/Cloudiness_Latitude.png" alt="Latitude vs. Cloudiness">
                                 </a>
                             </figure>
                         </div>
@@ -146,7 +146,7 @@
                         <div class="col-xs-6 col-sm-3 col-md-6">
                             <figure>
                                 <a href="wind.html">
-                                    <img id="landing-viz" src="Wind_Speed_Latitude.png" alt="Latitude vs. Wind Speed">
+                                    <img id="landing-viz" src="../Images/Wind_Speed_Latitude.png"  alt="Latitude vs. Wind Speed" > 
                                 </a>
                             </figure>
                         </div>
